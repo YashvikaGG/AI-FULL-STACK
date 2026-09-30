@@ -43,4 +43,3 @@ for i in range(len(results["ids"])):
     print(f"ID: {results['ids'][i]} -> Chunk: {results['documents'][i]}")
 chunk1=collection.get(ids=['0'])
 print("Chunk 1")
-
